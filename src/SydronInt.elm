@@ -41,13 +41,9 @@ view addr m =
         [ ]
         [ Header.view m.repositoryOfInterest,
           RepoInput.view formclass,
-          div [inline] [EventTicker.view addr m.ticker],
-          div [inline] [SeeThePeople.view addr m.people]
+          span [] [EventTicker.view addr m.ticker],
+          span [] [SeeThePeople.view addr m.people]
         ]
-
-
-inline: Attribute
-inline = style ["display" => "inline"]
 
 
 -- UPDATE
