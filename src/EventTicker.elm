@@ -84,8 +84,7 @@ itemStyle highlight =
     ([
       "color" => "#515151",
       "font-family" => "Helvetica",
-      "font-size" => "21px",
-      "height" => "24px"
+      "font-size" => "21px"
     ] ++ highlight)
 
 
